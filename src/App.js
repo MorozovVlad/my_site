@@ -1,12 +1,12 @@
 import "./styles/App.css";
 import Header from "./components/Header";
-import Card from "./components/Card";
+import CardWrapper from "./components/CardWrapper";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Card />
+      <CardWrapper />
     </div>
   );
 }
