@@ -1,0 +1,21 @@
+.card{
+    background-color: rgb(42, 41, 41);
+    border-radius: 20px;
+    cursor: pointer;
+}
+p{
+    margin: 10px;
+    text-align: center;
+    color:aliceblue;
+    font-family: 'JetBrains Mono', monospace;
+}
+.h1{
+    margin: 10px;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+.img{
+    border-radius: 20px 20px 0 0;
+    background-size: cover;
+    height: 80%;
+}

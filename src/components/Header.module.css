@@ -1,19 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
 ul{
     text-align: right;
-    margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
     margin-right: 150px;
+    position: absolute;
+    right: 0;
 }
-
+.logo{
+    /* margin-left: 150px; */
+}
+h1{
+    font-family: 'JetBrains Mono', monospace;
+    color: aliceblue;
+    margin-left: 150px;
+    font-size: 20px;
+}
 menu{
     color: aliceblue;
     margin: 0;
     padding: 0;
     background-color:rgb(42, 41, 41);
+    display:flex;
+    flex-direction: row;
 }
-
 li{
     font-family: 'JetBrains Mono', monospace;
     font-size: 20px;

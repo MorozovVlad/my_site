@@ -1,21 +1,16 @@
 import React from "react";
 import styles from "./CardWrapper.module.css";
+import Card from "./Card";
+import { cars } from "./cars.data.js";
 
-const Card = () => {
+const CardWrapper = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.card}>sfsf</div>
-      <div className={styles.card}>sfsf</div>
-      <div className={styles.card}>sfsf</div>
-      <div className={styles.card}>sfsf</div>
-      <div className={styles.card}>sfsf</div>
-      <div className={styles.card}>sfsf</div>
-      <div className={styles.card}>sfsf</div>
-      <div className={styles.card}>sfsf</div>
-      <div className={styles.card}>sfsf</div>
-      <div className={styles.card}>sfsf</div>
+      {cars.map((cars) => (
+        <Card key={cars.id} cars={cars} />
+      ))}
     </div>
   );
 };
 
-export default Card;
+export default CardWrapper;
