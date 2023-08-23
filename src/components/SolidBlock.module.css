@@ -1,0 +1,27 @@
+.SolidBlock{
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+    background-color:rgb(42, 41, 41);
+    color:aliceblue;
+    margin-bottom: 150px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.SolidBlock:hover{
+    opacity: 90%;
+}
+.MainBlock{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Description{
+    width: 50%;
+    margin: 20px;
+    font-size: 35px;
+    text-align: center;
+}
