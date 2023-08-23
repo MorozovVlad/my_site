@@ -2,20 +2,31 @@
     background-color: rgb(42, 41, 41);
     border-radius: 20px;
     cursor: pointer;
+    height: 500px;
+    width: 100%; 
+    /* margin: 30px;  */
+}
+.card:hover{
+    opacity: 0.9;
 }
 p{
     margin: 10px;
-    text-align: center;
+    margin-top: 0px;
+    text-align: justify;
     color:aliceblue;
     font-family: 'JetBrains Mono', monospace;
 }
 .h1{
     margin: 10px;
+    margin-bottom: 5px;
     text-align: center;
     font-family: 'JetBrains Mono', monospace;
 }
 .img{
     border-radius: 20px 20px 0 0;
     background-size: cover;
-    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75%;
 }
+

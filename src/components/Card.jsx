@@ -10,8 +10,10 @@ const Card = ({ cars }) => {
           backgroundImage: `url(${cars.img})`,
         }}
       />
-      <h1 className={styles.h1}>{cars.name}</h1>
-      <p className={styles.p}>{cars.id}</p>
+      <div className="info">
+        <h1 className={styles.h1}>{cars.name}</h1>
+        <p className={styles.p}>{cars.description}</p>
+      </div>
     </div>
   );
 };
