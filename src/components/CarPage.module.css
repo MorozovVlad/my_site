@@ -1,0 +1,20 @@
+.content{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.MainBlock{
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Description{
+    width: 50%;
+    margin: 20px;
+    font-size:18px;
+    text-align: center;
+}

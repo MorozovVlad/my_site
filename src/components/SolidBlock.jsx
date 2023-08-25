@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./SolidBlock.module.css";
 import { cars } from "./cars.data.js";
+import { Link } from "react-router-dom";
 
 const SolidBlock = () => {
   return (
-    <div className={styles.SolidBlock}>
+    <Link to={"/car/4"} className={styles.SolidBlock}>
       <div
         className={styles.MainBlock}
         style={{
@@ -12,11 +13,11 @@ const SolidBlock = () => {
         }}
       />
       <div className={styles.Description}>
-        <p>{cars[1].name}</p>
+        <p>{cars[4].name}</p>
         <hr></hr>
-        <p>{cars[1].description}</p>
+        <p>{cars[4].description}</p>
       </div>
-    </div>
+    </Link>
   );
 };
 

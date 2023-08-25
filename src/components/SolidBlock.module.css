@@ -1,27 +1,33 @@
 .SolidBlock{
     margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 0;
     width: 80%;
     height: 400px;
     background-color:rgb(42, 41, 41);
     color:aliceblue;
-    margin-bottom: 150px;
     display: flex;
     cursor: pointer;
     border-radius: 5px;
+    word-wrap:break-word;
+    overflow:hidden;
+    text-decoration: none;
 }
 .SolidBlock:hover{
     opacity: 90%;
 }
 .MainBlock{
-    width: 50%;
+    width: 40%;
     height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-decoration: none;
 }
 .Description{
     width: 50%;
     margin: 20px;
-    font-size: 35px;
+    font-size:18px;
     text-align: center;
+    text-decoration: none;
 }

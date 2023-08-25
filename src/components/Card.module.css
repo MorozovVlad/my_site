@@ -4,7 +4,7 @@
     cursor: pointer;
     height: 500px;
     width: 100%; 
-    /* margin: 30px;  */
+    overflow:hidden;
 }
 .card:hover{
     opacity: 0.9;
@@ -15,6 +15,7 @@ p{
     text-align: justify;
     color:aliceblue;
     font-family: 'JetBrains Mono', monospace;
+    overflow:hidden;
 }
 .h1{
     margin: 10px;
@@ -29,4 +30,6 @@ p{
     background-repeat: no-repeat;
     height: 75%;
 }
-
+.link{
+    text-decoration: none;
+}
