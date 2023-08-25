@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./CardWrapper.module.css";
-import Card from "./Card";
-import { cars as carsData } from "./cars.data.js";
-import CreateCar from "./CreateCar";
+import Card from "../card/Card";
+import { cars as carsData } from "../cars.data.js";
+import CreateCar from "../createCar/CreateCar";
 import { useState } from "react";
 
 const CardWrapper = () => {

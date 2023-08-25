@@ -1,8 +1,8 @@
 import "./styles/App.css";
-import Header from "./components/Header";
-import CardWrapper from "./components/CardWrapper";
-import SimpleSlider from "./components/SimpleSlider";
-import SolidBlock from "./components/SolidBlock";
+import Header from "./components//header/Header";
+import CardWrapper from "./components/cardWrapper/CardWrapper";
+import SimpleSlider from "./components/simpleSlider/SimpleSlider";
+import SolidBlock from "./components/solidBlock/SolidBlock";
 
 function App() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import Card from "./Card";
+import Card from "../card/Card";
 import styles from "./SimpleSlider.module.css";
-import { cars } from "./cars.data.js";
+import { cars } from "../cars.data.js";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

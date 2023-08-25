@@ -1,7 +1,7 @@
 import React from "react";
 import App from "../App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CarPage from "./CarPage";
+import CarPage from "./carPage/CarPage";
 
 const Router = () => {
   return (

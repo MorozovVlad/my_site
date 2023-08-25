@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./SolidBlock.module.css";
-import { cars } from "./cars.data.js";
+import { cars } from "../cars.data.js";
 import { Link } from "react-router-dom";
 
 const SolidBlock = () => {

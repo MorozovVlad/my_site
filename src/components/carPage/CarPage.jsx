@@ -1,8 +1,8 @@
 import { React, useState } from "react";
 import { useParams } from "react-router-dom";
-import Header from "./Header";
-import Card from "./Card";
-import { cars } from "./cars.data.js";
+import Header from "../header/Header";
+// import Card from "./Card";
+import { cars } from "../cars.data.js";
 import styles from "./CarPage.module.css";
 
 const CarPage = () => {
