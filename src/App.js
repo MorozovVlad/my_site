@@ -3,14 +3,20 @@ import Header from "./components//header/Header";
 import CardWrapper from "./components/cardWrapper/CardWrapper";
 import SimpleSlider from "./components/simpleSlider/SimpleSlider";
 import SolidBlock from "./components/solidBlock/SolidBlock";
+import { useState } from "react";
 
 function App() {
+  const [index, setIndex] = useState(0);
+
+  const filterCarsIndex = (index) => {
+    setIndex(index);
+  };
+
   return (
     <div className="App">
-      <Header />
+      <Header filterCars={filterCarsIndex} />
       <SolidBlock />
-      <CardWrapper />
-
+      <CardWrapper index={index} />
       <SimpleSlider />
     </div>
   );

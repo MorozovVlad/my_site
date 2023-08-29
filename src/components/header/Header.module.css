@@ -32,4 +32,8 @@ li{
 }
 .link{
     text-decoration: none;
+    color : aliceblue;
+}
+.link:hover{
+    cursor: pointer;
 }

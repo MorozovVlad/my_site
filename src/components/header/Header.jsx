@@ -1,23 +1,54 @@
-import React from "react";
+import { React, useMemo } from "react";
 import { Link } from "react-router-dom";
+import { cars } from "../cars.data";
 import styles from "./Header.module.css";
 
-const header = () => {
+const Header = ({ filterCars }) => {
+  console.log({ filterCars });
   return (
     <menu>
       <div className={styles.logo}>
         <Link className={styles.link} to="/home">
-          <h1>My site</h1>
+          <h1
+            onClick={() => {
+              filterCars(0);
+            }}
+          >
+            BMW
+          </h1>
         </Link>
       </div>
       <ul>
-        <li>Пункт 1</li>
-        <li>Пункт 2</li>
-        <li>Пункт 3</li>
-        <li>Пункт 4</li>
+        <Link className={styles.link} to="/home">
+          <li
+            onClick={() => {
+              filterCars(3);
+            }}
+          >
+            3 серия
+          </li>
+        </Link>
+        <Link className={styles.link} to="/home">
+          <li
+            onClick={() => {
+              filterCars(5);
+            }}
+          >
+            5 серия
+          </li>
+        </Link>
+        <Link className={styles.link} to="/home">
+          <li
+            onClick={() => {
+              filterCars(7);
+            }}
+          >
+            7 серия
+          </li>
+        </Link>
       </ul>
     </menu>
   );
 };
 
-export default header;
+export default Header;

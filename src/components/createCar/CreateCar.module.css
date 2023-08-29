@@ -14,7 +14,8 @@ input{
     outline: none;
     background-color:rgb(42, 41, 41);
     border: 0;
-    color:aliceblue
+    color:aliceblue;
+    margin-bottom: 5px;
 }
 textarea{
     font-family: 'JetBrains Mono', monospace;
@@ -28,10 +29,10 @@ textarea{
     vertical-align:top;
     background-color:rgb(42, 41, 41);
     border: 0;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     margin-bottom: 5px;
     color:aliceblue;
-    height: 300px;
+    height:235px;
 }
 button{
     font-family: 'JetBrains Mono', monospace;
@@ -42,7 +43,7 @@ button{
     width: 100%;
     background-color:rgb(42, 41, 41);
     border: 0;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     color:aliceblue;
 }
 button:hover{

@@ -4,6 +4,7 @@ import styles from "./CreateCar.module.css";
 
 const clearData = {
   name: "",
+  series: "",
   description: "",
   img: "",
 };
@@ -29,6 +30,16 @@ const CreateCar = ({ setCars }) => {
           }))
         }
         value={data.name}
+      />
+      <input
+        placeholder="series"
+        onChange={(e) =>
+          setData((prev) => ({
+            ...prev,
+            series: e.target.value,
+          }))
+        }
+        value={data.series}
       />
       <textarea
         placeholder="description"
